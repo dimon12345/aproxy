@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">AProxy</string>
+    <string name="app_tagline">Прокси-сервер в вашем кармане</string>
+
+    <string name="status_running">Работает</string>
+    <string name="status_stopped">Остановлен</string>
+    <string name="start">Запустить прокси</string>
+    <string name="stop">Остановить прокси</string>
+    <string name="starting">Запуск…</string>
+    <string name="stopping">Остановка…</string>
+
+    <string name="servers">Протоколы</string>
+    <string name="servers_hint">Включайте только нужные протоколы</string>
+    <string name="http_name">HTTP</string>
+    <string name="http_desc">Обычный HTTP-прокси</string>
+    <string name="https_name">HTTPS</string>
+    <string name="https_desc">HTTP-прокси поверх TLS</string>
+    <string name="socks_name">SOCKS5</string>
+    <string name="socks_desc">SOCKS5 без авторизации</string>
+    <string name="port">Порт</string>
+    <string name="port_dialog_title">Порт · %1$s</string>
+    <string name="port_error">Порт должен быть от 1024 до 65535</string>
+    <string name="port_busy">Этот порт уже занят другим протоколом</string>
+    <string name="clients">Клиентов: %1$d</string>
+
+    <string name="download">Загрузка</string>
+    <string name="upload">Отправка</string>
+    <string name="total">Всего</string>
+    <string name="last_60">последние 60 секунд</string>
+    <string name="traffic_empty">Ожидание трафика…</string>
+
+    <string name="connect_hint">Подключите устройство к точке доступа Wi-Fi и укажите прокси</string>
+    <string name="connect_hint_no_ip">Включите Wi-Fi или точку доступа, чтобы узнать адрес</string>
+    <string name="connection_title">Подключение</string>
+    <string name="local_ip">IP устройства: %1$s</string>
+    <string name="unknown_ip">адрес не определён</string>
+    <string name="copy_address">Скопировать адрес</string>
+    <string name="copied">Скопировано</string>
+    <string name="share_cert">Сертификат</string>
+    <string name="https_warning">Для HTTPS-прокси клиент должен доверять сертификату AProxy.</string>
+    <string name="start_error">Не удалось запустить прокси</string>
+
+    <string name="battery_title">Экономия батареи</string>
+    <string name="battery_desc">Система может остановить прокси в фоне. Разрешите приложению работать без ограничений.</string>
+    <string name="battery_button">Отключить</string>
+    <string name="battery_ok">Ограничения сняты</string>
+    <string name="battery_settings">Настройки</string>
+    <string name="hotspot_button">Настройки точки доступа</string>
+
+    <string name="protocols_none">Включите хотя бы один протокол</string>
+    <string name="error">Ошибка</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+
+    <string name="notification_channel">Прокси-сервер</string>
+    <string name="notification_channel_desc">Уведомление о работе прокси-сервера</string>
+    <string name="notification_title">AProxy работает</string>
+    <string name="notification_text">HTTP :%1$d · HTTPS :%2$d · SOCKS5 :%3$d</string>
+    <string name="notification_stop">Остановить</string>
+    <string name="service_starting">Запуск прокси…</string>
+    <string name="service_stopped">Прокси остановлен</string>
+
+    <string name="info_footer">Прокси доступен только в локальной сети. Не оставляйте открытые порты без присмотра.</string>
+</resources>

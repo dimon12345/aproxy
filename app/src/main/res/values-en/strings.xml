@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">AProxy</string>
+    <string name="app_tagline">A proxy server in your pocket</string>
+
+    <string name="status_running">Running</string>
+    <string name="status_stopped">Stopped</string>
+    <string name="start">Start proxy</string>
+    <string name="stop">Stop proxy</string>
+    <string name="starting">Starting…</string>
+    <string name="stopping">Stopping…</string>
+
+    <string name="servers">Protocols</string>
+    <string name="servers_hint">Enable only the protocols you need</string>
+    <string name="http_name">HTTP</string>
+    <string name="http_desc">Plain HTTP proxy</string>
+    <string name="https_name">HTTPS</string>
+    <string name="https_desc">HTTP proxy over TLS</string>
+    <string name="socks_name">SOCKS5</string>
+    <string name="socks_desc">SOCKS5 without authentication</string>
+    <string name="port">Port</string>
+    <string name="port_dialog_title">Port · %1$s</string>
+    <string name="port_error">Port must be between 1024 and 65535</string>
+    <string name="port_busy">This port is already used by another protocol</string>
+    <string name="clients">Clients: %1$d</string>
+
+    <string name="download">Download</string>
+    <string name="upload">Upload</string>
+    <string name="total">Total</string>
+    <string name="last_60">last 60 seconds</string>
+    <string name="traffic_empty">Waiting for traffic…</string>
+
+    <string name="connect_hint">Connect a device to your Wi-Fi hotspot and set the proxy</string>
+    <string name="connect_hint_no_ip">Turn on Wi-Fi or hotspot to detect the address</string>
+    <string name="connection_title">Connection</string>
+    <string name="local_ip">Device IP: %1$s</string>
+    <string name="unknown_ip">address not detected</string>
+    <string name="copy_address">Copy address</string>
+    <string name="copied">Copied</string>
+    <string name="share_cert">Certificate</string>
+    <string name="https_warning">The HTTPS proxy requires the client to trust the AProxy certificate.</string>
+    <string name="start_error">Could not start the proxy</string>
+
+    <string name="battery_title">Battery optimization</string>
+    <string name="battery_desc">The system may stop the proxy in the background. Allow the app to run without restrictions.</string>
+    <string name="battery_button">Allow</string>
+    <string name="battery_ok">Restrictions removed</string>
+    <string name="battery_settings">Settings</string>
+    <string name="hotspot_button">Hotspot settings</string>
+
+    <string name="protocols_none">Enable at least one protocol</string>
+    <string name="error">Error</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <string name="notification_channel">Proxy server</string>
+    <string name="notification_channel_desc">Proxy server status notification</string>
+    <string name="notification_title">AProxy is running</string>
+    <string name="notification_text">HTTP :%1$d · HTTPS :%2$d · SOCKS5 :%3$d</string>
+    <string name="notification_stop">Stop</string>
+    <string name="service_starting">Starting proxy…</string>
+    <string name="service_stopped">Proxy stopped</string>
+
+    <string name="info_footer">The proxy is available on the local network only. Do not leave open ports unattended.</string>
+</resources>
